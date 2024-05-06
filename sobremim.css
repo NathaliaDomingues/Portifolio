@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #000000;
+}
+
+header{
+    background-color: #000000;
+    color: aliceblue;
+    text-align: center; 
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header img{
+    width: 330px;
+    height: 200px;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 70px;
+    border-radius: 20px;
+    background: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+    gap: 4px;
+    cursor: pointer;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+}
+
+.sm img{
+    width: 100%;
+    height: 90%;
+}
+
+.sm{
+    background-image: url(fundosm.png);
+}
+
+.habilidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 2em;
+    margin: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+h2{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.habilidades img{
+    width: 100px;
+    height: 100px;
+}
+
+.html:hover{
+    transform: scale(1.1);
+}
+
+.javascript:hover{
+    transform: scale(1.1);
+}
+
+.php:hover{
+    transform: scale(1.1);
+}
+
+.css:hover{
+    transform: scale(1.1);
+}
+
+.trabalhoemequipe:hover{
+    transform: scale(1.1);
+}
+
+.comunicacao:hover{
+    transform: scale(1.1);
+}
