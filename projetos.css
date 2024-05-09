@@ -63,13 +63,15 @@ button{
     justify-content: center;
 }
 
-.balao img{
-    width: 35%;
+.robo.balao img{
+    width: 100px;
+    height: 100px;
     animation: float 3s ease-in-out infinite;
 }
 
-.roboz img{
-    width: 40%;
+.robo.roboz img{
+    width: 100px;
+    height: 100px;
     animation: float 3s ease-in-out infinite;
 }
 
