@@ -60,17 +60,16 @@ button{
 
 .robo{
     display: inline-block;
-    justify-content: center;
 }
 
 .balao img{
-    width: 56%;
+    width: 66%;
     animation: float 3s ease-in-out infinite;
     float: left;
 }
 
 .roboz img{
-    width: 66%;
+    width: 76%;
     animation: float 3s ease-in-out infinite;
     float: right;
 }
