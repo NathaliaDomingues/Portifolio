@@ -63,13 +63,13 @@ button{
 }
 
 .balao img{
-    width: 46%;
+    width: 36%;
     animation: float 3s ease-in-out infinite;
     float: left;
 }
 
 .roboz img{
-    width: 56%;
+    width: 40%;
     animation: float 3s ease-in-out infinite;
     float: right;
 }
