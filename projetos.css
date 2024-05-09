@@ -60,6 +60,7 @@ button{
 
 .robo{
     display: flex;
+    margin:20%;
 }
 
 .robo img{
