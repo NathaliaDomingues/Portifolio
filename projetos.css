@@ -64,14 +64,12 @@ button{
 }
 
 .robo.balao img{
-    width: 100px;
-    height: 100px;
+    width: 45%;
     animation: float 3s ease-in-out infinite;
 }
 
 .robo.roboz img{
-    width: 100px;
-    height: 100px;
+    width: 50%;
     animation: float 3s ease-in-out infinite;
 }
 
