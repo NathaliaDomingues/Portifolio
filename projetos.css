@@ -59,14 +59,16 @@ button{
 }
 
 .robo{
-    display: flex;
-    justify-content: center;
-    margin: 30%;
+    display: inline-block;
 }
 
-.robo img{
-    width: 500px;
-    height: 300px;
+.balao img{
+    width: 15%;
+    animation: float 3s ease-in-out infinite;
+}
+
+.roboz img{
+    width: 20%;
     animation: float 3s ease-in-out infinite;
 }
 
