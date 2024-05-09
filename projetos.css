@@ -59,19 +59,18 @@ button{
 }
 
 .robo{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
 }
 
 .balao img{
-    width: 25%;
+    width: 35%;
     animation: float 3s ease-in-out infinite;
-    float: right;
 }
 
 .roboz img{
-    width: 30%;
+    width: 40%;
     animation: float 3s ease-in-out infinite;
-    float: left;
 }
 
 @keyframes float {
