@@ -60,12 +60,13 @@ button{
 
 .robo{
     display: flex;
+    justify-content: center;
     margin: 30%;
 }
 
 .robo img{
-    width: 700px;
-    height: 600px;
+    width: 500px;
+    height: 300px;
     animation: float 3s ease-in-out infinite;
 }
 
